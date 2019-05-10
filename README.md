@@ -17,3 +17,18 @@
 - `utils`：存放相关的 API
 - `notebook`：存放 jupyter notebook 相关的文件
 - `draft`：(可以放置在任何位置)存放一些不成熟的或者未开发完成的一些相关内容，不被上传到 github
+
+## nutsml
+
+一个数据处理工具包 [nutsml](https://maet3608.github.io/nuts-ml/introduction.html)：
+
+Deep-learning code is characterized by
+
+    data pre-processing on CPU and training on GPU
+    mix of common and task-specific pre-processing steps
+    training in epochs
+    mini-batches of training data
+    data transformation such as scaling, cropping and others
+    data augmentation to increase amount of training data
+    check-pointing of network weights
+    logging of training progress
