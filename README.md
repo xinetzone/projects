@@ -16,4 +16,4 @@
 
 - `utils`：存放相关的 API
 - `notebook`：存放 jupyter notebook 相关的文件
-- `draft`：存放一些不成熟的或者未开发完成的一些相关内容，不被上传到 github
+- `draft`：(可以放置在任何位置)存放一些不成熟的或者未开发完成的一些相关内容，不被上传到 github
