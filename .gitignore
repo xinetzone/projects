@@ -3,7 +3,6 @@ __pycache__
 _ext
 *.pyc
 *.so
-maskrcnn_benchmark.egg-info/
 build/
 dist/
 
@@ -14,7 +13,7 @@ dist/
 
 # ipython/jupyter notebooks
 *.ipynb
-**/.ipynb_checkpoints/
+**/*.ipynb_checkpoints/
 
 # Editor temporaries
 *.swn
