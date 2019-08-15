@@ -253,3 +253,11 @@ $ git clone lxw@192.168.20.57:/home/lxw/utils/sdk.git
 ```
 
 其中 `@` 之前的 `lxw` 指代目标主机电脑的用户名，`192.168.20.57` 目标主机电脑的 IP 地址，`/home/lxw/utils/sdk.git` 指代裸库所在的绝对路径。
+
+如果在 git clone 时不想克隆 master 分支，可以这样：
+
+```sh
+$ git clone -b 指定的远程分支名 GitHub-URL
+```
+
+用于克隆指定的分支。
