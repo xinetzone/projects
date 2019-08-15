@@ -260,4 +260,8 @@ $ git clone lxw@192.168.20.57:/home/lxw/utils/sdk.git
 $ git clone -b 指定的远程分支名 GitHub-URL
 ```
 
-用于克隆指定的分支。
+用于克隆指定的分支。当很多 tag 分支版本的代码，我想克隆下载指定版本到我服务器上面，可以这样：
+
+```sh
+$ git clone --branch [tags标签] [git地址] # 或者 git clone -b [tags标签] [git地址]
+```
