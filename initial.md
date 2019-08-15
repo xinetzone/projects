@@ -5,7 +5,7 @@
 在终端输入：
 
 ```sh
-mkdir data draft models outputs utils notebook
+mkdir data draft models outputs app notebook
 ```
 
 进行项目的初始化。
@@ -25,7 +25,7 @@ mkdir data draft models outputs utils notebook
 
 ## 项目的开发
 
-- `utils/`：存放相关的 API
+- `app/`：存放相关的 API
 - `notebook/`：存放 jupyter notebook 等相关的文件
 - `draft/`：(可以放置在任何位置)存放一些不成熟的或者未开发完成的一些相关内容，不被上传到 github
 
